@@ -14,9 +14,10 @@ test_requirements = ["pytest", "parameterized", "mongomock"]
 
 install_requires = [
     "Click",
-    "yagooglesearch",
+    "yagooglesearch @ git+ssh://git@github.com/pguridi/yagooglesearch.git#egg=some-pkg",
     "playwright",
-    "playwright-stealth"
+    "playwright-stealth",
+    "tqdm"
 ]
 
 setup(
