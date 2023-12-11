@@ -32,3 +32,9 @@ The following settings can be changed by setting them in environment variables:
 `pip install mock`
 
 `python -m unittest discover -v .`
+
+
+### To generate the html documentation:
+
+`pip install sphinx sphinx_rtd_theme`
+`cd docs && make clean html`
